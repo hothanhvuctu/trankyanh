@@ -1,0 +1,482 @@
+body {
+  font-family: UXVlcRyaWFsLVJlZVsYXIudHRm;
+  margin: 0 auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+@font-face {
+  font-family: "UXVlcRyaWFsLVJlZVsYXIudHRm";
+  src: url("https://w.ladicdn.com/5e51ff6161a254079fc6d2ed/questrial-regular-20230618103319-qwd69.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "RJlYXRWaWJlcySZWdbGFyLnRZg";
+  src: url("https://w.ladicdn.com/5e51ff6161a254079fc6d2ed/greatvibes-regular-20231009130949-dckjd.ttf")
+    format("truetype");
+}
+.head-banner {
+  background-image: url("./image/BANNER-HEAD.jpg");
+  height: 700px;
+  background-position: center;
+  background-size: 100%;
+}
+.name-a,
+.name-e {
+  font-family: RJlYXRWaWJlcySZWdbGFyLnRZg;
+  font-size: 80px;
+  color: #fff;
+  text-shadow: rgb(0, 0, 0) 1px 2px 3px;
+}
+.name-a {
+  position: relative;
+  top: 130px;
+  left: 10px;
+}
+.name-e {
+  top: 155px;
+  left: 85px;
+  position: relative;
+}
+
+.traitim-t {
+  background-image: url("https://w.ladicdn.com/s400x400/5e51ff6161a254079fc6d2ed/may-tinh-10111111111-20231009133927-cj_yy.png");
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+  top: 130px;
+  left: 170px;
+}
+.date-head {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 1px 2px 3px;
+  font-size: 22px;
+  position: relative;
+  top: 170px;
+  left: 80px;
+}
+.container.info-box-1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.info-1-box-1 {
+  width: 40%;
+  position: relative;
+  top: -165px;
+}
+
+.info-1-box-1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.img-info-1-box-1 {
+  background: #fff;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.info-2-box-1 {
+  width: 50%;
+  margin-top: 75px;
+}
+
+.box-card {
+  display: grid;
+  text-align: center;
+  gap: 20px;
+  border: 2px solid;
+  padding: 40px 0;
+  border-radius: 24px;
+}
+
+.box-card span {
+  font-weight: 600;
+}
+.name-1-info-2-box-1,
+.name-2-info-2-box-1 {
+  font-family: RJlYXRWaWJlcySZWdbGFyLnRZg;
+  color: rgb(198, 48, 44);
+  text-align: center;
+  font-size: 45px;
+}
+.traitim-2 {
+  background-image: url(https://w.ladicdn.com/s400x400/5e51ff6161a254079fc6d2ed/may-tinh-9111-20231009133927-br-wb.png);
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: 100%;
+}
+.name-two {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.box-1 {
+  background-color: rgb(254, 228, 228);
+}
+
+.box-1-1 {
+  background-image: url(https://w.ladicdn.com/s700x1200/5e51ff6161a254079fc6d2ed/time-love-20231009123132--_3ff.png);
+}
+.box-2 {
+  background-image: url(https://w.ladicdn.com/s1440x800/5e51ff6161a254079fc6d2ed/900-am-22032023-3-20231009123126-_omv2.png);
+}
+.box-3 {
+  background-image: url(https://w.ladicdn.com/s1440x640/5e51ff6161a254079fc6d2ed/backgrou-17-20231009123132-zvjfy.jpg);
+  padding: 40px 0;
+}
+.chiase-codau {
+  display: flex;
+  padding: 40px 0;
+}
+.chiase-codau div {
+  width: calc(100% / 2);
+  text-align: center;
+  font-size: 22px;
+}
+.chiase-codau div img {
+  width: 50%;
+  height: 100%;
+}
+.info-chiase-codau {
+  display: grid;
+  align-content: center;
+  background: #ffffff;
+}
+.info-thonggia {
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+  line-height: 24px;
+}
+.info-thonggia p {
+  color: red;
+  font-weight: 600;
+  font-size: 20px;
+}
+.box-card.moi-box-3 {
+  width: 800px;
+  justify-self: center;
+}
+.info-box-4 {
+  text-align: center;
+}
+
+.info-box-4 p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.info-box-4 span {
+  font-size: 18px;
+}
+
+.box-khoanh-khac {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.box-khoanh-khac div {
+  width: calc(100% / 3 - 10px);
+}
+
+.box-khoanh-khac div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.info-box5 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.info1-box-5,
+.info2-box-5 {
+  width: calc(100% / 2 - 10px);
+  padding: 20px;
+  box-shadow: rgb(0, 0, 0) 0px 15px 25px -20px;
+  background-color: rgb(251, 237, 238);
+  border-radius: 12px;
+}
+
+.info1-box-5 img {
+  width: 100%;
+  border-radius: 12px;
+}
+.info1-box-5 {
+  text-align: center;
+}
+
+.info1-box-5 p {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.info1-box-5 span {
+  line-height: 22px;
+}
+.info1-box-5 div {
+  margin-top: 30px;
+}
+.box-5 {
+  margin-top: 50px;
+  background-image: url(https://w.ladicdn.com/s1440x735/5e51ff6161a254079fc6d2ed/backgrou-24-20231009140935-cgbq3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.info-cuoi {
+  background: #fff;
+  line-height: 24px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.info-cuoi p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.info2-box-5 {
+  display: grid;
+  gap: 10px;
+}
+.loi-cam-on {
+  text-align: center;
+  line-height: 24px;
+}
+.box-6 {
+  margin: 65px 0;
+}
+@-webkit-keyframes snowflakes-fall {
+  0% {
+    top: -10%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@-webkit-keyframes snowflakes-shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(80px);
+    transform: translateX(80px);
+  }
+}
+@keyframes snowflakes-fall {
+  0% {
+    top: -10%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@keyframes snowflakes-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(80px);
+  }
+}
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+  position: fixed;
+  top: -10%;
+  z-index: 9999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+  -webkit-animation-duration: 10s, 3s;
+  -webkit-animation-timing-function: linear, ease-in-out;
+  -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-play-state: running, running;
+  animation-name: snowflakes-fall, snowflakes-shake;
+  animation-duration: 10s, 3s;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  animation-play-state: running, running;
+}
+.snowflake:nth-of-type(0) {
+  left: 1%;
+  -webkit-animation-delay: 0s, 0s;
+  animation-delay: 0s, 0s;
+}
+.snowflake:nth-of-type(1) {
+  left: 10%;
+  -webkit-animation-delay: 1s, 1s;
+  animation-delay: 1s, 1s;
+}
+.snowflake:nth-of-type(2) {
+  left: 20%;
+  -webkit-animation-delay: 6s, 0.5s;
+  animation-delay: 6s, 0.5s;
+}
+.snowflake:nth-of-type(3) {
+  left: 30%;
+  -webkit-animation-delay: 4s, 2s;
+  animation-delay: 4s, 2s;
+}
+.snowflake:nth-of-type(4) {
+  left: 40%;
+  -webkit-animation-delay: 2s, 2s;
+  animation-delay: 2s, 2s;
+}
+.snowflake:nth-of-type(5) {
+  left: 50%;
+  -webkit-animation-delay: 8s, 3s;
+  animation-delay: 8s, 3s;
+}
+.snowflake:nth-of-type(6) {
+  left: 60%;
+  -webkit-animation-delay: 6s, 2s;
+  animation-delay: 6s, 2s;
+}
+.snowflake:nth-of-type(7) {
+  left: 70%;
+  -webkit-animation-delay: 2.5s, 1s;
+  animation-delay: 2.5s, 1s;
+}
+.snowflake:nth-of-type(8) {
+  left: 80%;
+  -webkit-animation-delay: 1s, 0s;
+  animation-delay: 1s, 0s;
+}
+.snowflake:nth-of-type(9) {
+  left: 90%;
+  -webkit-animation-delay: 3s, 1.5s;
+  animation-delay: 3s, 1.5s;
+}
+.snowflake:nth-of-type(10) {
+  left: 25%;
+  -webkit-animation-delay: 2s, 0s;
+  animation-delay: 2s, 0s;
+}
+.snowflake:nth-of-type(11) {
+  left: 65%;
+  -webkit-animation-delay: 4s, 2.5s;
+  animation-delay: 4s, 2.5s;
+}
+span.text-cd {
+  font-family: RJlYXRWaWJlcySZWdbGFyLnRZg;
+  font-size: 65px;
+  text-align: left;
+}
+.text-cr {
+  font-family: RJlYXRWaWJlcySZWdbGFyLnRZg;
+  font-size: 65px;
+  text-align: right;
+}
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  .head-banner {
+    height: 645px;
+    background-repeat: no-repeat;
+  }
+  .name-a,
+  .name-e {
+    font-size: 45px;
+    width: 50%;
+  }
+  .name-a {
+    top: 390px;
+    left: 10px;
+  }
+  .name-e {
+    top: 395px;
+  }
+  .traitim-t {
+    top: 380px;
+    left: 100px;
+    width: 45px;
+    height: 45px;
+  }
+  .date-head {
+    top: 395px;
+    left: 60px;
+    width: 80%;
+    font-size: 18px;
+  }
+  .container.info-box-1.info-box-1 {
+    display: block;
+  }
+  .info-1-box-1 {
+    top: 0;
+    width: 100%;
+  }
+  .info-2-box-1 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .name-1-info-2-box-1,
+  .name-2-info-2-box-1 {
+    font-size: 36px;
+  }
+  .traitim-2 {
+    width: 45px;
+    height: 45px;
+  }
+  .chiase-codau {
+    display: block;
+  }
+  .chiase-codau div {
+    width: 100%;
+  }
+  span.text-cd,
+  .text-cr {
+    text-align: center;
+    font-size: 60px;
+  }
+  .box-2 {
+    background: none;
+  }
+  .chiase-codau div {
+    font-size: 18px;
+  }
+  .box-card.moi-box-3 {
+    width: 95%;
+  }
+  .info-thonggia {
+    line-height: 18px;
+  }
+  .info-thonggia span {
+    font-size: 13px;
+  }
+  .box-khoanh-khac div {
+    width: calc(100% / 2 - 10px);
+  }
+  .info-box5 {
+    display: block;
+  }
+  .info1-box-5,
+  .info2-box-5 {
+    width: auto;
+  }
+  .info-cuoi {
+    font-size: 15px;
+  }
+}
