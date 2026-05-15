@@ -11,6 +11,11 @@ body {
   src: url("https://w.ladicdn.com/5e51ff6161a254079fc6d2ed/questrial-regular-20230618103319-qwd69.ttf")
     format("truetype");
 }
+@font-face {
+  font-family: "RJlYXRWaWJlcySZWdbGFyLnRZg";
+  src: url("https://w.ladicdn.com/5e51ff6161a254079fc6d2ed/greatvibes-regular-20231009130949-dckjd.ttf")
+    format("truetype");
+}
 .head-banner {
   background-image: url("./image/KYANH/HEAD-BANNER.jpg");
   height: 700px;
@@ -19,7 +24,7 @@ body {
 }
 .name-a,
 .name-e {
-  font-family: 'Great Vibes', cursive;
+  font-family: "MonteCarlo", cursive;
   font-size: 80px;
   color: #fff;
   text-shadow: rgb(0, 0, 0) 1px 2px 3px;
